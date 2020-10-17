@@ -7,16 +7,16 @@ unsound robustness. Our approach is to address this problem.
 
 To address this problem, a new multi-label adaptation network (ML-ANet) based on multiple kernel variants with maximum mean discrepancies was proposed, which significantly reduced the discrepancy between the source and target domains. The hidden representations of the task-specific layers in ML-ANet were embedded in the reproducing kernel Hilbert space (RKHS), and then the mean-embeddings of specific features in different domains could be precisely matched. Multiple kernel functions were used to make feature distribution more effortless to perform mean embedding matching explicitly, which can further reduce domain discrepancy.
 
-<div align=center><img src="info/info-1.jpg"></div>
-<div align=center><img src="info/network.jpg"></div>
+![avatar](info/info-1.jpg)
+![avatar](info/network.jpg)
 
 ## Evaluation
 
 We evaluated our newly proposed approach based on three driving datasets including Cityscapes, Foggy Cityscapes, and KITTI. The
 results show that ML-ANet is effective for multi-label image classification in different domains with biased data distribution.
 
-<div align=center><img src="info/info-2.jpg"></div>
-<div align=center><img src="info/info-3.jpg"></div>
+![avatar](info/info-2.jpg)
+![avatar](info/info-3.jpg)
 
 ## How to use code
 ### Requirement
@@ -35,8 +35,5 @@ results show that ML-ANet is effective for multi-label image classification in d
 
 If this project is helpful to your research, please cite this below.
 ```angular2
-    jizefeng
+    Stay tuned
 ```
-
-![avatar](info/info-1.jpg)
-![avatar](info/network.jpg)
