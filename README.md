@@ -35,7 +35,7 @@ results show that ML-ANet is effective for multi-label image classification in d
 
 If this project is helpful to your research, please cite this below.
 ```angular2
-
+    jizefeng
 ```
 
 ![avatar](info/info-1.jpg)
