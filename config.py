@@ -1,0 +1,26 @@
+CFG = {
+    'source_img_path': 'G:\\Now_Project\\prepare_data\\VOCdevkit2007\\VOC2007\\JPEGImages\\',
+    'target_img_path': 'F:/datasets/kitti_dataset/data_object_image_2/training/image_2/',
+    'source_data_path': 'G:\\Now_Project\\prepare_data\\VOCdevkit2007\\VOC2007\\labels\\source_train.txt',
+    'target_data_path': 'F:/datasets/kitti_dataset/re_kitti_c.txt',
+    # 'img_path': 'G:\\Now_Project\\prepare_data\\VOCdevkit2007\\VOC2007\\JPEGImages\\',
+    # 'source_data_path': 'G:\\Now_Project\\prepare_data\\VOCdevkit2007\\VOC2007\\labels\\source_train.txt',
+    # 'source_test_data_path': 'G:\\Now_Project\\prepare_data\\VOCdevkit2007\\VOC2007\\labels\\source_test.txt',
+    # 'target_data_path': 'G:\\Now_Project\\prepare_data\\VOCdevkit2007\\VOC2007\\labels\\target_train.txt',
+    # 'test_data_path': 'G:\\Now_Project\\prepare_data\\VOCdevkit2007\\VOC2007\\labels\\target_test.txt',
+    'source_data': 'cityscapes',
+    'target_data': 'kitti',
+    'checkpoint': './checkpoint/da_checkpoint_2000.pkl',
+    'DA_ON': True,
+    'kwargs': {'num_workers': 2},
+    'batch_size': 32,
+    'epoch': 1000,
+    'lr': 1e-3,
+    'momentum': .9,
+    'log_interval': 10,
+    'l2_decay': 1e-3,
+    'lambda': 1,    # 10
+    'backbone': 'resnet',
+    'n_class': 3,
+    'img_size': 224
+}
