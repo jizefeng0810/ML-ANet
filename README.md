@@ -1,4 +1,4 @@
-# ML-ANet: A Multi-label Image Classification Approach on Urban Scenes Using Adaptation Network
+# Implemention of paper "ML-ANet: A Multi-label Image Classification Approach on Urban Scenes Using Adaptation Network" from Chinese Journal of Mechanical Engineering
 
 Deep learning algorithms have achieved outstanding performance in a variety of computer vision tasks, including multi-label classification of images in the field of autonomous driving. However, the effectiveness of these algorithms highly depends on reliable ground-truth labels that require extensive human labor work, and usually the learned classifiers can only have satisfactory performance on the same distribution with
 unsound robustness. Our approach is to address this problem.
