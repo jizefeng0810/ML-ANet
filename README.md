@@ -31,7 +31,7 @@ results show that ML-ANet is effective for multi-label image classification in d
     python train.py
 ```
 
-##Citations
+## Citations
 
 If this project is helpful to your research, please cite this below.
 ```angular2
